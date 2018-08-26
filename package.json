@@ -1,0 +1,26 @@
+{
+  "name": "buffett-server",
+  "version": "1.0.0",
+  "description": "Node server backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/napon/buffett-server.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/napon/buffett-server/issues"
+  },
+  "homepage": "https://github.com/napon/buffett-server#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-config-google": "^0.9.1"
+  }
+}
