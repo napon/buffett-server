@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/napon/buffett-server#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "fuse.js": "^3.2.1"
   },
   "devDependencies": {
     "eslint": "^5.4.0",
