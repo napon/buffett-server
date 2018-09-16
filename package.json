@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/napon/buffett-server#readme",
   "dependencies": {
+    "cors": "^2.8.4",
     "express": "^4.16.3",
     "fuse.js": "^3.2.1"
   },

@@ -1,14 +1,11 @@
 const app = require('express')();
-app.use((req, res, next) => {
-  res.header('Access-Control-Allow-Origin', '*');
-  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
-  next();
-});
-
-app.get('/', (req, res) => res.send('success!'));
+const cors = require('cors');
 
 const Lookup = require('./endpoints/Lookup');
 const Search = require('./endpoints/Search');
+
+app.use(cors());
+
 app.get('/lookup/:symbols', Lookup.run);
 app.get('/search/:symbol', Search.run);
 
